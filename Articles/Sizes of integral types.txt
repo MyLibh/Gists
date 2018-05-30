@@ -1,0 +1,82 @@
+=========================================================================================================================
+
+<climits>
+
+=========================================================================================================================
+
+CHAR_BIT		Number of bits in a char object (byte)							8 or greater
+SCHAR_MIN		Minimum value for an object of type signed char					-127 (-2^7 + 1) or less
+SCHAR_MAX		Maximum value for an object of type signed char				    127 (2^7 - 1) or greater
+UCHAR_MAX		Maximum value for an object of type unsigned char				255 (2^8 - 1) or greater
+CHAR_MIN		Minimum value for an object of type char					    either SCHAR_MIN or 0
+CHAR_MAX		Maximum value for an object of type char					    either SCHAR_MAX or UCHAR_MAX
+MB_LEN_MAX		Max number of bytes in a multibyte character for any locale		1 or greater
+SHRT_MIN		Minimum value for an object of type short                       -32767 (-2^15 + 1) or less
+SHRT_MAX		Maximum value for an object of type short 					    32767 (2^15 - 1) or greater
+USHRT_MAX		Maximum value for an object of type unsigned short  		    65535 (2^16 - 1) or greater
+INT_MIN			Minimum value for an object of type int						    -32767 (-2^15 + 1) or less
+INT_MAX			Maximum value for an object of type int						    32767 (2^15 - 1) or greater
+UINT_MAX		Maximum value for an object of type unsigned    			    65535 (2^16 - 1) or greater
+LONG_MIN		Minimum value for an object of type long int				    -2147483647 (-2^31 + 1) or less
+LONG_MAX		Maximum value for an object of type long int				    2147483647 (2^31 - 1) or greater
+ULONG_MAX		Maximum value for an object of type unsigned long			    4294967295 (2^32 - 1) or greater
+LLONG_MIN		Minimum value for an object of type long long 				    -9223372036854775807 (-2^63 + 1) or less
+LLONG_MAX		Maximum value for an object of type long long 				    9223372036854775807 (2^63 - 1) or greater
+ULLONG_MAX		Maximum value for an object of type unsigned long long			18446744073709551615 (2^64 - 1) or greater
+
+=========================================================================================================================
+
+<cstdint>
+
+=========================================================================================================================
+
+INTMAX_MIN			Minimum value of intmax_t								(-2^63 + 1) or lower
+INTMAX_MAX			Maximum value of intmax_t								(2^63 - 1) or higher
+UINTMAX_MAX			Maximum value of uintmax_t								(2^64 - 1) or higher
+INTN_MIN			Minimum value of exact-width signed type				(-2^(N - 1))
+INTN_MAX			Maximum value of exact-width signed type				(2^(N - 1) - 1)
+UINTN_MAX			Maximum value of exact-width unsigned type				(2^N - 1)
+INT_LEASTN_MIN		Minimum value of minimum-width signed type				(-2^(N - 1) + 1) or lower
+INT_LEASTN_MAX		Maximum value of minimum-width signed type				(2^(N - 1) - 1) or higher
+UINT_LEASTN_MAX		Maximum value of minimum-width unsigned type			(2^N - 1) or higher
+INT_FASTN_MIN		Minimum value of fastest minimum-width signed type		(-2^(N - 1) + 1) or lower
+INT_FASTN_MAX		Maximum value of fastest minimum-width signed type		(2^(N - 1) - 1) or higher
+UINT_FASTN_MAX		Maximum value of fastest minimum-width unsigned type	(2^N - 1) or higher
+INTPTR_MIN			Minimum value of intptr_t								(-2^15 + 1) or lower
+INTPTR_MAX			Maximum value of intptr_t								(2^15 - 1) or higher
+UINTPTR_MAX			Maximum value of uintptr_t								(2^16 - 1) or higher
+
+SIZE_MAX			Maximum value of size_t				(2^64 - 1) or higher
+PTRDIFF_MIN			Minimum value of ptrdiff_t			(-2^16 + 1) or lower
+PTRDIFF_MAX			Maximum value of ptrdiff_t			(2^16 - 1) or higher
+SIG_ATOMIC_MIN		Minimum value of sig_atomic_t		(sig_atomic_t is signed) ? (-127 or lower) : (0)
+SIG_ATOMIC_MAX		Maximum value of sig_atomic_t		(sig_atomic_t is signed) ? (127 or higher) : (255 or higher)
+WCHAR_MIN			Minimum value of wchar_t			(wchar_t is signed) ? (-127 or lower) : (0)
+WCHAR_MAX			Maximum value of wchar_t			(wchar_t is signed) ? (127 or higher) : (255 or higher)
+WINT_MIN			Minimum value of wint_t				(wint_t is signed) ? (-32767 or lower) : (0)
+WINT_MAX			Maximum value of wint_t				(wint_t is signed) ? (32767 or higher) : (65535 or higher)
+
+=========================================================================================================================
+
+<cfloat>
+
+=========================================================================================================================
+
+FLT_RADIX		Base for all floating-point types (float, double and long double)					2 or greater    
+
+FLT_MANT_DIG 
+DBL_MANT_DIG 
+LDBL_MANT_DIG	Precision of significand, i.e. the number of digits that conform the significand.
+
+FLT_DIG			Number of decimal digits  															6 or greater
+DBL_DIG			that can be rounded into a floating-point and										10 or greater
+LDBL_DIG		back without change in the number of decimal digits									10 or greater
+
+=========================================================================================================================	
+=========================================================================================================================
+=========================================================================================================================
+
+All information was taken from:
+[<climits>](http://www.cplusplus.com/reference/climits/)
+[<cstdint>](http://www.cplusplus.com/reference/cstdint/)
+[<cfloat>](http://www.cplusplus.com/reference/cfloat/)
