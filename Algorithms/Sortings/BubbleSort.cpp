@@ -21,8 +21,8 @@ The number of exchanges is 0.
 =====================================================================
 */
 
-template<typename Iter, typename Pred>
-void BubbleSort(Iter first, Iter last, Pred p)
+template<typename Iter, typename Pred = std::less<>>
+void BubbleSort(Iter first, Iter last, Pred p = Pred())
 {
 	while (first < --last)
 		for (auto i{ first }; i < last; ++i)
