@@ -1,5 +1,3 @@
-#include <algorithm>
-
 /*
 =====================================================================
 
@@ -21,11 +19,28 @@ The number of exchanges is 0.
 =====================================================================
 */
 
-template<typename Iter, typename Pred = std::less<>>
-void BubbleSort(Iter first, Iter last, Pred p = Pred())
+#include <utility> // std::iter_swap
+#include <xstddef> // std::less
+
+//====================================================================================================================================
+//!
+//! \brief  Sorts elements in [first, last) using pred
+//!
+//! \param  first      Iterator to the begin of container
+//! \param  last       Iterator to the end of container
+//! \param  predicate  Predicate to compare for sorting
+//!
+//! \throw  ???
+//!
+//! \note   Uses std::less<> as default predicate
+//!
+//====================================================================================================================================
+
+template<typename Iterator, typename Predicate = std::less<>>
+void BubbleSort(Iterator first, Iterator last, Predicate predicate = Predicate())
 {
 	while (first < --last)
 		for (auto i{ first }; i < last; ++i)
-			if (p(*(i + 1), *i))
+			if (predicate(*(i + 1), *i))
 				std::iter_swap(i, i + 1);
 }
