@@ -4,17 +4,16 @@ typedef long long ll_t;
 
 //====================================================================================================================================
 //!
-//! \brief   Finds the greatest common divisor(GSD) of the integer numbers a and b
+//! \brief   Finds the greatest common divisor(GCD) of the integer numbers a and b
 //!
 //! \param   a  First number
 //! \param   b  Second number
 //!
-//! \return  GSD
-//!
+//! \return  GCD
 //!
 //====================================================================================================================================
 
-ll_t GSD(ll_t a, ll_t b) noexcept
+ll_t GCD(ll_t a, ll_t b) noexcept
 {
 	if (!a)
 		return b;
