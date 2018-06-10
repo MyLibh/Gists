@@ -36,10 +36,8 @@ std::vector<T> BFS(const graph_t &graph, size_t num, T vertex, size_t start = 0u
 		auto f{ q.front() };
 		q.pop();
 
-		for (size_t i{}; i < graph[f].size(); ++i)
-		{
-			auto t{ graph[f][i] };
-			if (!used[to]) 
+		for (auto i{ 0ull }; i < graph[f].size(); ++i)
+			if (auto t{ graph[f][i] }; !used[to])
 			{
 				used[t] = true;
 
@@ -48,7 +46,6 @@ std::vector<T> BFS(const graph_t &graph, size_t num, T vertex, size_t start = 0u
 				d[t] = d[f] + 1;
 				p[t] = v;
 			}
-		}
 	}
 
 	if (!used[vertex])
