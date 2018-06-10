@@ -16,6 +16,8 @@ using T       = graph_t::value_type::value_type;
 //!        
 //! \return  Shortest path to 'vertex' 
 //!
+//!          O(N + M)			 
+//!
 //====================================================================================================================================
 
 std::vector<T> BFS(const graph_t &graph, size_t num, T vertex, size_t start = 0ull)
@@ -23,7 +25,7 @@ std::vector<T> BFS(const graph_t &graph, size_t num, T vertex, size_t start = 0u
 	std::queue<T> q;
 	q.push(start);
 
-	std::vector<bool> used(num);
+	std::vector<char> used(num);
 	used[start] = true;
 
 	std::vector<T> d(n),
