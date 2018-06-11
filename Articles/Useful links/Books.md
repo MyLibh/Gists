@@ -1,19 +1,23 @@
-### Collection of useful literature
+# Collection of useful literature
 
-# C
+### C
+  • [Керниган Б. & Ричи Д. - Язык C](https://1drv.ms/b/s!AqhkiEfnCCwUgXKFaepCSJiBTd-A)
 
-# C++
-  • [Эффективное использование C++](https://1drv.ms/b/s!AqhkiEfnCCwUgXFJ8nwNjvukjpAR)
+### C++
+  • [Мэйерс С. - Эффективное использование C++](https://1drv.ms/b/s!AqhkiEfnCCwUgXFJ8nwNjvukjpAR)
 
-  • [Совершенный код](https://1drv.ms/b/s!AqhkiEfnCCwUgW8702JLNKOLDijw)
+  • [Дьюхерст С. - C++ Священные знания](https://1drv.ms/b/s!AqhkiEfnCCwUgXME1Ru1dZdZXCiV)
 
-  • [C++17 STL Cookbook](https://1drv.ms/b/s!AqhkiEfnCCwUgXCaVVdQTNMgGU18)
+  • [Саттер Г. - Решение сложных задач на C++](https://1drv.ms/b/s!AqhkiEfnCCwUgXSDb2rhGq138S1Z)
 
-# Git
-  • [ProGit](https://1drv.ms/b/s!AqhkiEfnCCwUgW7hKYlRI4r-wOR5)
+  • [Galowicz J. - C++17 STL Cookbook](https://1drv.ms/b/s!AqhkiEfnCCwUgXCaVVdQTNMgGU18)
 
-# Math
+### Git
+  • [Chacon S. & Straub B. - ProGit](https://1drv.ms/b/s!AqhkiEfnCCwUgW7hKYlRI4r-wOR5)
 
-# English IT
+### Math
 
-# Others
+### English IT
+
+### Others
+  • [Макконнелл С. - Совершенный код](https://1drv.ms/b/s!AqhkiEfnCCwUgW8702JLNKOLDijw)
