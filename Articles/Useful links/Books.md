@@ -20,6 +20,10 @@
 
   • [Фленов М. - Программирование на C++ глазами хакера](https://1drv.ms/b/s!AqhkiEfnCCwUgXlzg1WP3YJhg-bz)
 
+  • [Круглинский Д. - Программирование на Microsoft Visual C++ 6.0 для профессионалов](https://1drv.ms/b/s!AqhkiEfnCCwUggQfdZHhsBXIhpw3)
+
+  • [Голуб А. - Веревка достаточной длины, чтобы выстрелить себе в ногу](https://1drv.ms/b/s!AqhkiEfnCCwUggKNZVIPYiKg8x1F)
+
 ### Assembler
   • [Калашников О. - Ассемблер - это просто](https://1drv.ms/b/s!AqhkiEfnCCwUgXYhIMlnRV8avIBe)
 
@@ -39,6 +43,8 @@
   • [Esteras S. - Infotech english for computer users](https://1drv.ms/b/s!AqhkiEfnCCwUgXuLWkzMofTNblhX)
 
 ### Others
+  • [Intel Architecture Optimization Manual](https://1drv.ms/b/s!AqhkiEfnCCwUggPebBFnZRrrsYj6)
+
   • [Макконнелл С. - Совершенный код](https://1drv.ms/b/s!AqhkiEfnCCwUgW8702JLNKOLDijw)
 
   • [Knuth D. - The TeXbool](https://1drv.ms/b/s!AqhkiEfnCCwUgXrIFE4X7MmXrhmX)
