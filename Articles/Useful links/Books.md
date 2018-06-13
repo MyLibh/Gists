@@ -47,4 +47,6 @@
 
   • [Макконнелл С. - Совершенный код](https://1drv.ms/b/s!AqhkiEfnCCwUgW8702JLNKOLDijw)
 
-  • [Knuth D. - The TeXbool](https://1drv.ms/b/s!AqhkiEfnCCwUgXrIFE4X7MmXrhmX)
+  • [Knuth D. - The TeXbook](https://1drv.ms/b/s!AqhkiEfnCCwUgXrIFE4X7MmXrhmX)
+
+  • [Kohli J. - GNU GRUB](https://1drv.ms/b/s!AqhkiEfnCCwUggVIn3kUkss1DJCs)
