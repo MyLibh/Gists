@@ -5,4 +5,4 @@
 3. [Линейная алгебра для разработчиков игр](https://habr.com/post/131931/)
 
 #
-![Habrahabr logo](https://github.com/MyLibh/Gists/blob/AddLogos/Logos/Habrahabr.png?raw=true)
+![Habrahabr logo](https://github.com/MyLibh/Gists/blob/master/Logos/Habrahabr.png?raw=true)
