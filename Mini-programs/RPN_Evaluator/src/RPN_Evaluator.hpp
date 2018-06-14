@@ -6,7 +6,7 @@
 #include <sstream>   // std::stringstream
 #include <stdexcept> // std::out_of_range, std::invalid_argument
 
-typedef long double ld_t;
+using ld_t = long double;
 
 template<typename Iter>
 ld_t EvaluateRPN(Iter begin, Iter end)
