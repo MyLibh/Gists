@@ -8,6 +8,18 @@
 
 using ld_t = long double;
 
+//====================================================================================================================================
+//!
+//! \brief   Evaluates reverse polish notation(RPN). You can check more about RPN:
+//!          https://en.wikipedia.org/wiki/Reverse_Polish_notation
+//!
+//! \param   begin  Iterator to the begin
+//! \param   end    Iterator to the end
+//!
+//! \return  result of RPN sequence
+//!
+//====================================================================================================================================
+
 template<typename Iter>
 ld_t EvaluateRPN(Iter begin, Iter end)
 {
