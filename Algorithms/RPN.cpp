@@ -1,5 +1,3 @@
-#pragma once
-
 #include <stack>     // std::stack
 #include <map>       // std::map
 #include <cmath>     // std::powl, std::fmodl
@@ -21,7 +19,7 @@ using ld_t = long double;
 //====================================================================================================================================
 
 template<typename Iter>
-ld_t EvaluateRPN(Iter begin, Iter end)
+ld_t EvaluateRPN(Iter begin, Iter end) noexcept(false)
 {
 	std::stack<ld_t> stackOfValues;
 	auto pop_stack = [&]() -> ld_t
