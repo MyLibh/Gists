@@ -6,6 +6,7 @@
 4. [Введение в алгоритм A*](https://habr.com/post/331192/)
 5. [Основы BASH. Часть 1](https://habr.com/post/47163/)
 6. [Цветной man или как разукрасить вывод echo](https://habr.com/post/119436/)
+7. [Bash-скрипты, часть 2: циклы](https://habr.com/company/ruvds/blog/325928/)
 
 #
 ![Habrahabr logo](https://github.com/MyLibh/Gists/blob/master/Logos/Habrahabr.png?raw=true)
