@@ -4,6 +4,7 @@
 2. [Метод Монте-Карло](https://habr.com/post/192272/)
 3. [Линейная алгебра для разработчиков игр](https://habr.com/post/131931/)
 4. [Введение в алгоритм A*](https://habr.com/post/331192/)
+5. [Основы BASH. Часть 1](https://habr.com/post/47163/)
 
 #
 ![Habrahabr logo](https://github.com/MyLibh/Gists/blob/master/Logos/Habrahabr.png?raw=true)
